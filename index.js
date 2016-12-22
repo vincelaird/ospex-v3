@@ -12,3 +12,5 @@ app.get('/', (req, res) => res.sendFile('index.html'));
 app.listen(process.env.PORT, process.env.IP, () => {
     console.log('ospex v3 listening');
 });
+
+module.exports = app;
